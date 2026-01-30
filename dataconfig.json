@@ -1,0 +1,19 @@
+{
+    "items": {
+        "table_name": "items",
+        "columns": [
+            ["id", "INT"],
+            ["name", "VARCHAR(1000)"],
+            ["category", "VARCHAR(100)"],
+            ["unit", "INT"]
+        ]
+    },
+    "recepies": {
+        "table_name": "recepies",
+        "columns": [
+            ["text", "TEXT"],
+            ["ingredients", "TEXT"],
+            ["portions", "INT"]
+        ]
+    }
+}
