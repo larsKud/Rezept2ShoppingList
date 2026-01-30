@@ -11,6 +11,7 @@
     "recepies": {
         "table_name": "recepies",
         "columns": [
+            ["id", "INT"],
             ["text", "TEXT"],
             ["ingredients", "TEXT"],
             ["portions", "INT"]
