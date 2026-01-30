@@ -8,7 +8,7 @@ CORS(app, origins=[frontend_origin])
 
 
 @app.route('/getData', methods=["GET"])
-def authenticate():
+def get_data():
     data = [{'key': 'Banane', 'value': '15'},{'key': 'Balong', 'value': '0'}]
     response = make_response(data, 200)
     return response
